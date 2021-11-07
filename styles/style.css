@@ -9,9 +9,10 @@ html {
 }
 
 body {
-    background-color: #dcffdc;
     color: darkgreen;
-    font-family: 'Antic Slab', serif; 
+    font-family: 'Antic Slab', serif;
+    display: flex;
+    flex-direction: column; 
 }
 
 .header-nav {
@@ -28,11 +29,10 @@ body {
 h1, h2 {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
-    text-decoration: underline; 
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -59,11 +59,27 @@ header {
     background-color: white;
 }
 
-[type=text], [type=email] {
-    padding: 0.25rem;
+.bg-dark {
+    color: white;
+    background-color: darkgreen;
+    padding: 0 50px;
 }
 
+.bg-light {
+    color: darkgreen;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+    margin: 0;
+}
 
+.shield {
+    margin: 0 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+}
 
 .logo {
     color: black;
@@ -95,10 +111,66 @@ header {
     color: rgb(30, 30, 30);
 }
 
-.profile {
-    background-color: white;
+.profile-image {
+    width: 230px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0 50% 0 50%;
 }
 
-.profile-description {
-    color: rgb(30, 30, 30);
+.multi-column-container {
+    display: flex;
+}
+
+.three-column-item {
+    width: calc(100% / 3 - 10px);
+    margin: 50px 5px;
+    border: 5px solid darkgreen;
+    border-radius: 15px;
+    background-color: rgb(246, 255, 246);
+    text-align: center;
+    color: darkgreen;
+}
+
+.three-column-item h3 {
+    margin: 40px auto;
+}
+
+.three-column-item .img-thumbnail {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px 20px;
+}
+
+[type=submit] {
+    background-color: #003d02;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 1rem;
+}
+
+[type=submit]:hover {
+    background-color: green;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.7);
+}
+
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

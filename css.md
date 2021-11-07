@@ -73,3 +73,26 @@ CSS cheat sheet
     - `vh` Relative to 1% of the height of the viewport
     - `%` Relative to the parent element
 - `calc()` - works with different units
+
+
+## Box model
+
+- Element
+- Padding
+- Border
+- Margin
+
+- Background color (completely includes the border)
+
+- margin: top right bottom left -> margin: 0, 0, 0, 0
+- margin: top left-right bottom -> margin: 0, 0, 0
+- margin: top-bottom left-right -> margin: 0, 0
+- margin: all -> margin: 0
+
+## Background
+
+- e.g. `background-image: url(../images/background.jpg);`
+- e.g. `background-size: cover;` (or contain)
+- e.g. `background-position: center center;`
+- e.g. `background-repeat: no-repeat;`
+- e.g. `background-attachment: fixed;`
