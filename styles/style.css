@@ -31,6 +31,14 @@ h1, h2 {
     text-decoration: underline; 
 }
 
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
 ul, ol {
     padding-left: 25px;
 }
@@ -44,7 +52,7 @@ ol {
 }
 
 p {
-    padding: 10px; 
+    padding: 0.4rem; 
 }
 
 header {
@@ -52,15 +60,17 @@ header {
 }
 
 [type=text], [type=email] {
-    padding: 5px;
+    padding: 0.25rem;
 }
+
+
 
 .logo {
     color: black;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 1.25rem; 
     font-weight: bold;
-    margin: 25px 0 25px 25px;
+    margin: 1rem 0 1rem 1rem;
 }
 
 .header-nav-menu {
@@ -72,7 +82,7 @@ header {
 }
 
 .header-menu-item {
-    margin-right: 40px;
+    margin-right: 1.5rem;
 }
 
 .header-menu-item a {
@@ -81,7 +91,6 @@ header {
 }
 
 .introduction {
-    font-size: 25px;
     text-align: center;
     color: rgb(30, 30, 30);
 }

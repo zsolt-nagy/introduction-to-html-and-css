@@ -60,3 +60,16 @@ CSS cheat sheet
     - `inline` elements
     - `inline-block` elements
     - `flex` elements (Flexbox)
+
+
+## Units
+
+- Absolute
+    - `px`
+- Relative
+    - `em` Relative to the font-size of the parent element
+    - `rem` Relative to font-size of the root element (better way)
+    - `vw` Relative to 1% of the width of the viewport
+    - `vh` Relative to 1% of the height of the viewport
+    - `%` Relative to the parent element
+- `calc()` - works with different units
